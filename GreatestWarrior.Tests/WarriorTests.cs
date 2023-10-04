@@ -14,7 +14,7 @@ namespace GreatestWarrior.Tests
 		[TestMethod]
 		public void CreateWarrior_LevelShouldBeOne()
 		{
-			Assert.AreEqual(1, _warrior.Level + 1);
+			Assert.AreEqual(1, _warrior.Level);
 		}
 
 		[TestMethod]
